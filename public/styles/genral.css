@@ -1,0 +1,12 @@
+body{
+  padding-top: 100px;
+  padding-left: 100px;
+  height: 3000px;
+  background: rgb(213,0,0);
+  background: radial-gradient(circle, rgba(213,0,0,1) 17%, rgba(255,38,255,1) 54%, rgba(148,187,233,1) 97%);
+  
+}
+p{
+  margin-bottom: 0;
+  margin-top: 0;
+}

@@ -1,0 +1,33 @@
+.sidebar{
+  background: rgb(227,36,162);
+  background: linear-gradient(0deg, rgba(227,36,162,1) 5%, rgba(199,38,197,1) 13%, rgba(22,83,153,1) 44%, rgba(102,27,156,1) 100%);
+  position: fixed;
+  left: 0;
+  top: 100px;
+  bottom: 0;
+  width:100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  justify-content: space-between;
+  
+ }
+ .sidebar-link{
+  /* height: 90px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: transparent;
+  transition: background-color 2s;
+  cursor: pointer;
+  width: 100px;
+ }
+ .sidebar-link:hover{
+  background-color: rgba(230, 11, 11, 0.911);
+ }
+ .sidebar-link img{
+  width: 75px ;
+  height:75px ;
+  border-radius: 50px;
+ }
